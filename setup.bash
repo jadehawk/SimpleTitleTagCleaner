@@ -9,5 +9,4 @@ echo "****************************************************"
 echo "****************************************************"
 
 echo "------------- Installing Clean-Title Script --------"
-curl https://raw.githubusercontent.com/jadehawk/SimpleTitleTagCleaner/main/clean-title.py -o /config/scripts/clean-title.py
-exit
+curl https://raw.githubusercontent.com/jadehawk/SimpleTitleTagCleaner/main/clean-title.bash -o /config/scripts/clean-title.bash
