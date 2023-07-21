@@ -9,4 +9,9 @@ echo "****************************************************"
 echo "****************************************************"
 
 echo "------------- Installing Clean-Title Script --------"
+
+cd config/scripts
+
 curl https://raw.githubusercontent.com/jadehawk/SimpleTitleTagCleaner/main/clean-title.bash -o /config/scripts/clean-title.bash
+
+chmod +x clean-title.bash
